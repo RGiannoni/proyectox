@@ -3,10 +3,28 @@
     text-decoration: none;
     list-style: none;
 }
-h1{
+
+
+.Nombre{
     font-family: 'Caveat', cursive;
     color: white;
+    animation-name: Giannoni;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    
 }
+
+
+@keyframes Giannoni{
+    50%{
+        color: rgb(17, 22, 19);
+    }
+    100%{
+       color: rgb(220, 224, 233);
+    }
+}
+
 
 p{
     color: white;
@@ -241,4 +259,51 @@ button{
     color: white;
     width: 380px;
     margin:0;
+}
+
+.Section-Mision{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.Articulos-Mision p{
+  color: black;
+}
+
+.Articulos-Mision{
+    width: 500PX;
+    height: 400px;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 12em;
+}
+
+.Section-Mision img{
+    width: 400px;
+    position: absolute;
+    position: absolute;
+    left: 40em;
+    top: 11em;
+}
+
+
+.Header-mision h3{
+    text-align: center;
+    font-size: 40px;
+} 
+
+.Section-some{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+}
+
+.Header-Some p{
+    color: black;
 }
