@@ -1,8 +1,10 @@
-*{
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
 }
+
 h1{
     font-family: 'Caveat', cursive;
     color: white;
@@ -24,7 +26,7 @@ p{
 .Contenedor{
     font-family: 'Caveat', cursive;
     max-width: 1250px;
-    margin: 0 auto;
+   
 }
 
 .Header-1{
@@ -50,9 +52,13 @@ p{
     justify-content: space-around;
 }
 
+.Menu-lista li{
+    list-style: none;
+}
 
 .Menu a{
     color: white;
+    text-decoration: none;
 }
 
 .Text{
