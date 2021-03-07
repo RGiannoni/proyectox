@@ -6,8 +6,18 @@
 h1{
     font-family: 'Caveat', cursive;
     color: white;
+    animation-name: Giannoni;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
 }
-
+@keyframes Giannoni{
+    50%{
+        color: rgb(12, 12, 12);
+    }
+    100%{
+       color: rgb(220, 224, 233);
+    }
+}
 p{
     color: white;
 }
