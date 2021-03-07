@@ -4,6 +4,12 @@
     list-style: none;
 }
 
+.Contenedor{
+    font-family: 'Caveat', cursive;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 .Nombre{
     font-family: 'Caveat', cursive;
@@ -26,14 +32,7 @@
 }
 
 
-p{
-    color: white;
-}
-.Contenedor{
-    font-family: 'Caveat', cursive;
-    max-width: 100%;
-    margin: 0 auto;
-}
+
 
 .Header-1{
     width: 100%;
